@@ -3078,20 +3078,20 @@
 	}
 	
 
-	#about-me, #about-me section{
+	#about, #about section{
 		margin-bottom: 0;
 	}
 	
-	#about-me #position{
+	#about #position{
 		font-size: 2em;
 		margin-bottom: .5em;
 	}
 	
-	#about-me #affiliation{
+	#about #affiliation{
 		font-size: 1.3em;
 	}
 	
-	#about-me #main-info{
+	#about #main-info{
 		width: 100%;
 		display: inline-block;
 		font-size: 2em;
@@ -3099,16 +3099,16 @@
 		margin-bottom: 1em
 	}
 	
-	#about-me #main-info #first-name{
+	#about #main-info #course-code{
 		display: inline-block;
 		text-transform: uppercase;
 	}
-	#about-me #main-info #last-name{
+	#about #main-info #course-name{
 		display: inline-block;
 		text-transform: uppercase;
 		font-weight: 500;
 	}
-	#about-me #main-info #title{
+	#about #main-info #title{
 		display: block;
 	}
 	
