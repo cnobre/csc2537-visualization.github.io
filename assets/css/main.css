@@ -1183,6 +1183,13 @@
 		margin: 2em 0 2em 0;
 	}
 
+	hr#no-space {
+		border: 0;
+		border-top: solid 1px #dddddd;
+		height: 1px;
+		margin: 2em 0 2em 0;
+	}
+
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
 	}
