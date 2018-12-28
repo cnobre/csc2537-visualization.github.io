@@ -1184,10 +1184,10 @@
 	}
 
 	hr#no-space {
-		border: 0;
+		padding: 0px;   
 		border-top: solid 1px #dddddd;
 		height: 1px;
-		margin: 2em 0 2em 0;
+		margin: 0 0 0 0;
 	}
 
 	p, ul, ol, dl, table {
