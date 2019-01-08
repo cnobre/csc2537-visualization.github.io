@@ -41,8 +41,35 @@
 
 	table {
 		border-collapse: collapse;
-		border-spacing: 0;
+		border-spacing: 10;
 	}
+
+	
+	table.sixty {
+	    width: 60%;
+	}
+
+	table.ninety {
+	    width: 90%;
+	}
+
+	table.eighty {
+	    width: 90%;
+	}
+	
+	th {
+	    font-weight: bold;
+	}
+	
+	th, td {
+	    text-align: left;
+	    padding: 8px;
+	}
+
+	tr:nth-child(even) {
+	    background-color: #f2f2f2;
+	}
+
 
 	body {
 		-webkit-text-size-adjust: none;
@@ -3439,10 +3466,8 @@
 		font-style: italic;
 	}
 	
-	
-	
-	
-	
+
+
 	
 	
 	
