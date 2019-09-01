@@ -44,6 +44,13 @@
 		border-spacing: 10;
 	}
 
+	table.thirty {
+	    width: 30%;
+	}
+
+	table.fifty {
+	    width: 50%;
+	}
 	
 	table.sixty {
 	    width: 60%;
@@ -1186,12 +1193,12 @@
 		-ms-transition: border-color .2s ease-in-out;
 		transition: border-color .2s ease-in-out;
 		
-		border-bottom: 1px solid #252122;
+		border-bottom: 1px dotted #fda50f;
 	}
 
 		a:hover {
 			text-decoration: none;
-			color: #9e9e9e;
+			color: #fda50f;
 			border-color: transparent;
 		}
 		

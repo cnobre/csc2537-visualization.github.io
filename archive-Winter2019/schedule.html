@@ -1,0 +1,637 @@
+<!DOCTYPE HTML>
+
+<!--
+	Dopetrope by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+<html>
+  <head>
+    <title>CSC2537H-STA2555:  Information visualization</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="/assets/css/ie/html5shiv.js"></script><![endif]-->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/jquery.dropotron.min.js"></script>
+    <script src="/assets/js/skel.min.js"></script>
+    <script src="/assets/js/skel-viewport.min.js"></script>
+    <script src="/assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/d3-4.10.2.min.js"></script>
+    
+    <link rel="stylesheet" href="/assets/css/main.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    
+    <meta name="theme-color" content="#ffffff">
+    
+    
+  </head>
+	
+  <body>
+    <div id="page-wrapper">
+	    
+	         <!-- Main -->
+      <div id="main-wrapper">				
+	
+	<div class="container">
+	  
+	  <div class="row">
+	    <div class="12u">
+	      <!-- Intro -->
+	      <section id="about">
+		<div id="main-info">
+		  <div id="course-code">CSC2537/STA2555</br><p style="font-size:75%">Winter 2019</p></div>
+		  <div id="course-name"> &nbsp; &nbsp; &nbsp; &nbsp; Information Visualization</div>
+		</div>
+	      </section>
+	    </div>
+	  </div>
+
+
+
+	  <div id="header-wrapper">
+	    <div id="header">
+	      <!-- Nav -->
+	      <nav id="nav">
+		<ul>
+		  <li><a href="index.html">Home</a></li>
+		  <li class="current"> <a href="schedule.html">Schedule</a></li>
+		  <li><a href="grading.html">Grading</a></li>
+			<li><a href="project.html">Project</a></li>
+			<li><a href="commentaries.html">Commentaries</a></li>
+			<li><a href="discussion.html">Class discussion</a></li>
+		  <li><a href="policy.html">Course policy</a></li>
+		  </ul>
+	      </nav>
+	    </div>
+	  </div>
+
+	  <br/> <br/>
+	  
+	<h3>Course Schedule</h3>
+	      
+	<div class="row">
+		
+	   <div class="8u">
+	      <p> <i>This is a tentative schedule, that is subject to evolve over the course of the term. </i></p>
+	   </div>
+	   <p>
+	     <b><i class="fas fa-chalkboard-teacher"></i> Disc.</b> : Student-moderated class discussion <br/>
+	     <b><i class="fas fa-marker"></i> Comm.</b>: Commentary <br/>
+	     <b><i class="fas fa-puzzle-piece"></i></b> Research project assignments <br/>
+	   </p>
+	   
+
+
+	      <br/>
+	   <div class="12u">
+	      
+		<ul class="news">
+		  
+		  <li>
+		    <h3>
+		      8 Jan.
+		    </h3>
+			  <h2> Introduction </h2> (<a href="documents/CSC2537-STA2555-Lecture01.pdf">slides</a>)	
+			  <p> Why visualization? </p>
+			  <p> Course mechanics, Prospective projects</p>
+		  </li>
+		  <hr style="border-top: dotted 1px;" />
+		  <li>
+		    <h3>
+		      15 Jan.
+		    </h3>
+			  <h2> Fundaments of visualization</h2> (<a href="documents/CSC2537-STA2555-Lecture02.pdf">slides</a>)
+			  <p> Visual Perception, Data Types </p>
+
+			  <br /> 
+			  
+		    <center>
+			  <table>
+			    <tr>
+			      <th><i class="fas fa-book-open"></i> <b> Readings </b></th>
+			      <th> <i class="fas fa-marker"></i>Comm. </th>
+			      <th> <i class="fas fa-chalkboard-teacher"></i> Disc.</th>
+			    </tr>
+			    <tr>
+			      <td><a href="http://info.slis.indiana.edu/~katy/S637-S11/cleveland84.pdf">
+				  Graphical Perception: Theory, Experimentation and the Application
+				  to the Development of Graphical Models</a> 
+				</br> (Cleveland and McGill, J. Am. Stat. Assoc., 1984)</td>
+			      <td> <i class="fas fa-marker"></i> #1 </td>
+			      <td> -- </td>
+			    </tr>
+			    
+			    <tr>
+			      <td> <a href="https://research.tableau.com/sites/default/files/bar.pdf">
+				  Four Experiments on the Perception of Bar Charts</a> </br>
+				  (Talbot et al., Infovis 2014)</td>
+			      <td> --  </td>
+			      <td> -- </td>
+			    </tr>
+			    
+		    </table></center>
+
+		    
+				   
+		  </li>
+		  <hr style="border-top: dotted 1px;" />
+		  <li>
+		    <h3>
+		      22 Jan.
+		    </h3>
+		    <p style="float: right; font-size: 9pt; text-align: center; width: 18%; margin-right: 5%; margin-bottom: 0.5em;"><img src="https://pbs.twimg.com/profile_images/652220345550770180/SpERSS6f.jpg" style="width: 50%"></img></p>
+		    <h2>Guest seminar: RICHARD BRATH (Uncharted)</h2>
+		    Title TBA <br/> <a href="https://www.linkedin.com/in/richardbrath/?originalSubdomain=ca"> Richard Brath </a> (Uncharted)
+		    <br/> (Slides: <a href="documents/Uncharted\@UofT_InfoViz_201901_2UofT.pdf">Uncharted</a>, <a href="Brath_ThesisSynopsis_201901_2UofT.pdf">Thesis work</a>)
+		    
+		    <br/> <br/> <br/>
+		    <i class="fas fa-chalkboard-teacher"></i> Paper selection form due. (See <a href="discussion.hml">Class Discussion</a>).<br/><br/>
+
+		    
+		    <center>
+		      <table>
+			<tr>
+			  <th><i class="fas fa-book-open"></i> <b> Readings </b></th>
+			  <th> <i class="fas fa-marker"></i>Comm. </th>
+			  <th> <i class="fas fa-chalkboard-teacher"></i> Disc.</th>
+			</tr>
+			<tr>
+			  <td><a href="http://vialab.science.uoit.ca/wp-content/papercite-data/pdf/col2009a.pdf">
+			      DocuBurst: Visualizing Document Content Using Language Structure</a>
+			          </br> (Collins et al., Eurovis 2009)</td>
+			  <td> <i class="fas fa-marker"></i> #2  </td>
+			  <td> -- </td>
+			</tr>
+			
+			<tr>
+			  <td>  <a href="https://nicksultanum.github.io/web/files/pubs/2018-more-text.pdf">
+			      More Text Please! Understanding and Supporting the Use
+			      of Visualization for Clinical Text Overview</a></br>
+			    (Sultanum et al., CHI 2018)</td>
+			  <td> -- </td>
+			  <td> -- </td>
+			</tr>
+			
+			<tr>
+			  <td>  <a href="Perceptual Biases in Font Size as a Data Encoding">
+			      Perceptual Biases in Font Size as a Data Encoding</a></br>
+			    (Alexander et al., TVCG 2017)</td>
+			  <td> -- </td>
+			  <td> -- </td>
+			</tr>
+			
+		      </table>
+		    </center>
+
+		  </li>
+		  
+		  <hr style="border-top: dotted 1px;" />
+		  <li>
+		    <h3>
+		      29 Jan.
+		    </h3>
+		    <h2> Exploratory Data Analysis</h2>
+		    <p><i class="fas fa-puzzle-piece"></i> Project: Abstract due. (See <a href="project.hml">Project</a>).
+		    </p>
+		    <p> Overview and basics of exploratory data analysis</p>
+		    
+		    <p> Students-moderated discussion</p>
+			  <br/> <br/>
+			  
+
+			  <center>
+			    <table>
+			      <tr>
+				<th><i class="fas fa-book-open"></i> <b> Readings </b></th>
+				<th> <i class="fas fa-marker"></i>Comm. </th>
+				<th> <i class="fas fa-chalkboard-teacher"></i> Disc.</th>
+			      </tr>
+			    <tr>
+			      <td><a href="https://graphics.stanford.edu/papers/polaris/polaris.pdf">
+				  Polaris: A System for Query, Analysis and Visualization of Multi-dimensional
+				  Relational Databases </a> 
+				</br> (Stolte and Hanrahan, TVCG 2002)</td>
+			      <td> -- </td>
+			      <td>  <i class="fas fa-chalkboard-teacher"></i> (1) </td>
+			    </tr>
+			    
+			    <tr>
+			      <td> <a href="https://idl.cs.washington.edu/files/2015-Voyager-InfoVis.pdf">
+				  Voyager: Exploratory Analysis via Faceted Browsing of Visualization Recommendations</a> 
+			  	</br> (Kanit Wongsuphasawat et al., TVCG 2016)</td>
+			      <td> -- </td>
+			      <td> <i class="fas fa-chalkboard-teacher"></i> (2) <br><b>Arvid Frydenlund</b></td>
+			    </tr>
+
+			    <tr>
+			      <td> <a href="http://www.cs.umd.edu/hcil/trs/2008-03/2008-03.pdf">
+				  Integrating Statistics and Visualization:
+				  Case Studies of Gaining Clarity during Exploratory Data Analysis </a>
+				</br> (Perer and Shneiderman, CHI 2008)</td>
+			      <td> -- </td>
+			      <td> <i class="fas fa-chalkboard-teacher"></i> (3)</td>
+			    </tr>
+			    
+		    </table></center>
+
+		  </li>
+
+
+		  
+		  <hr style="border-top: dotted 1px;" />
+		  <li>
+		    <h3>
+		      5 Feb.
+		    </h3>
+		    <h2> Graphs & Networks</h2>
+		    <p> Overview and basics of graphs & networks visualization </p>
+		    <p> Students-moderated discussion</p>
+		    
+		    <br/> <br/>
+			  
+
+			  <center>
+			    <table>
+			      <tr>
+				<th><i class="fas fa-book-open"></i> <b> Readings </b></th>
+				<th> <i class="fas fa-marker"></i>Comm. </th>
+				<th> <i class="fas fa-chalkboard-teacher"></i> Disc.</th>
+			      </tr>
+			    <tr>
+			      <td> <a href="http://www.dgp.toronto.edu/~mjmcguff/research/nodetrix/nodetrix.pdf">
+				  NodeTrix: a hybrid visualization of social networks</a>
+				</br> (Henry et al., TVCG 2007)</td>
+			      <td> -- </td>
+			      <td>  <i class="fas fa-chalkboard-teacher"></i> (4) </td>
+			    </tr>
+			    
+			    <tr>
+			      <td> <a href="https://ialab.it.monash.edu/~dwyer/papers/graphthumbnails.pdf">
+				  Graph Thumbnails: Identifying and Comparing
+				  Multiple Graphs at a Glance</a> 
+				</br> (Yoghourdjian et al., TVCG 2018)</td>
+			      <td> -- </td>
+<td> <i class="fas fa-chalkboard-teacher"></i> (5)<br/> <b>Sean Robertson</b></td>
+			    </tr>
+
+			    <tr>
+			      <td> <a href="http://www.cs.toronto.edu/~fchevali/fannydotnet/resources_pub/pdf/egolines_chi2016.pdf">
+				  Egocentric Analysis of Dynamic Networks with EgoLines</a> 
+				  </br> (Zhao et al., CHI'16)</td>
+			      <td> -- </td>
+			      <td> <i class="fas fa-chalkboard-teacher"></i> (6)</td>
+			    </tr>
+			    
+		    </table></center>		    
+
+		  </li>
+		  
+		  <hr style="border-top: dotted 1px;" />
+
+		  <li>
+		    <h3>
+		      12 Feb.
+		    </h3>
+		    <h2>PROJECT: Mid-term review</h2>
+		    Mid-term presentation in class.  Don't forget to upload your slides. See <a href="project.html">Project</a>.  
+		  </li>
+
+		  
+		  <hr style="border-top: dotted 1px;" />
+		  <li>
+		    <h3>
+		      19 Feb.
+		    </h3>
+		    <h2>READING WEEK: no classes</h2>
+		  </li>
+
+		  
+		  <hr style="border-top: dotted 1px;" />
+		  <li>
+		    <h3>
+		      26 Feb. 2018
+		    </h3>
+		    <h2> Interaction & Animation </h2>
+		    Students-moderated discussion
+		    
+		    
+		    <br/> <br/>
+
+		    <center>
+		      <table>
+			    <tr>
+			      <th><i class="fas fa-book-open"></i> <b> Readings </b></th>
+			      <th> <i class="fas fa-marker"></i>Comm. </th>
+			      <th> <i class="fas fa-chalkboard-teacher"></i> Disc.</th>
+			    </tr>
+			    <tr>
+			      <td><i class="fas fa-video"></i> <a href="https://vimeo.com/groups/eurovis2014/videos/98986594">The Value of Visualization...
+				  and Why Interaction Matters</a> <br/>
+				(Stasko, Eurovis 2014 Capstone </td>
+			      <td>  </td>
+			      <td>  </td>
+			    </tr>
+			    
+			    <tr>
+			      <td> <a href="http://hci.stanford.edu/courses/cs448b/papers/Tversky_AnimationFacilitate_IJHCS02.pdf">
+				  Animation: can it facilitate?</a> 
+				<br/> (Tversky, IJHCS 2002)</td>
+			      <td> <i class="fas fa-marker"></i> #3 </td>
+			      <td>  </td>
+			    </tr>
+
+			    <tr>
+			      <td> <a href="https://idl.cs.washington.edu/files/2007-AnimatedTransitions-InfoVis.pdf">
+				  Animated Transitions in Statistical Data Graphics</a>
+				<br/> (Heer & Robertson, TVCG 2007)</td>
+			      <td>  </td>
+				    <td> <i class="fas fa-chalkboard-teacher"></i> (7)<br/><b>Claudia Chen</b></td>
+			    </tr>
+
+			    <tr>
+			      <td> <a href="http://www.cs.toronto.edu/~fchevali/fannydotnet/resources_pub/pdf/notsostaggering-infovis14.pdf">
+				  The not-so-staggering effect of staggered animation</a>
+				<br/> (Chevalier et al., TVCG 2014)</td>
+			      <td>  </td>
+			      <td> <i class="fas fa-chalkboard-teacher"></i> (8)</td>
+			    </tr>
+
+			    <tr>
+			      <td> <a href="http://vialab.science.uoit.ca/wp-content/papercite-data/pdf/kon2014b.pdf">
+				  DimpVis: Exploring Time-varying Information Visualizations by Direct Manipulation</a>
+				<br/> (Kondo and Collins, Infovis 2014)</td>
+			      <td>  </td>
+			      <td> <i class="fas fa-chalkboard-teacher"></i> (9)</td>
+			    </tr>
+
+			     <tr>
+			       <td> <a href="https://www.computer.org/cms/transactions/tvcg/1213/ttg2013122416.pdf">
+				   SketchStory: Telling more Engaging Stories with Data through Freeform Sketching</a>
+				</br> (Lee et al., Infovis 2014)</td>
+			      <td>  </td>
+			    <td> <i class="fas fa-chalkboard-teacher"></i> (10)<br/><b>Alexandra Tsvetkova</b></td>
+			    </tr>
+			    
+			    
+		    </table></center>
+
+		  </li>
+
+		  
+		<hr style="border-top: dotted 1px;" />
+		  <li>
+		    <h3>
+		      5 Mar. 2018
+		    </h3>
+		    <h2> Evaluation & Review </h2>
+		    Students-moderated discussion
+
+		     <br/> <br/>
+
+		    <center>
+		      <table>
+			    <tr>
+			      <th><i class="fas fa-book-open"></i> <b> Readings </b></th>
+			      <th> <i class="fas fa-marker"></i>Comm. </th>
+			      <th> <i class="fas fa-chalkboard-teacher"></i> Disc.</th>
+			    </tr>
+ 
+			    <tr>
+			      <td>  <a href="http://www.mjskay.com/papers/beliv2018-forking-paths-in-vis.pdf">
+				  The Garden of Forking Paths in Visualization: A Design Space for Reliable
+				  Exploratory Visual Analytics</a> 
+				<br/> (Pu & Kay, Beliv 2018)</td>
+			      <td> <i class="fas fa-marker"></i> #4 </td>
+			      <td> -- </td>
+			    </tr>
+			    
+			    <tr>
+			      <td> <a href="https://www.cs.ubc.ca/labs/imager/tr/2009/NestedModel/NestedModel.pdf">
+				  A Nested Model for Visualization Design and Validation</a> 
+				  <br/> (Munzner, Infovis 2009)</td>
+			      <td>  </td>
+			      <td> <i class="fas fa-chalkboard-teacher"></i> (11)</td>
+			    </tr>
+
+			     <tr>
+			       <td> <a href="http://bahadorsaket.com/publication/BELIV2016.pdf">
+				   Beyond Usability and Performance: A Review of User Experience-focused Evaluations
+				   in Visualization</a> 
+				  <br/> (Sakert, Endert and Stasko, BELIV 2016)</td>
+			      <td>  </td>
+			      <td> <i class="fas fa-chalkboard-teacher"></i> (12)</td>
+			     </tr>
+
+			    <tr>
+			      <td> <a href="https://uncharted.software/assets/evaluation-of-visualization-by-critiques.pdf">
+				  Evaluation of Visualization by Critiques</a> 
+				  <br/> (Brath & Banissi, BELIV 2016)</td>
+			      <td>  </td>
+			      <td> <i class="fas fa-chalkboard-teacher"></i> (13) <br/><b>Elaine Huynh</b></td>
+			    </tr>
+
+			    <tr>
+			      <td> <a href="http://www.cs.ubc.ca/labs/imager/tr/2012/dsm/dsm.pdf">
+				  Design Study Methodology: Reflections from the Trenches and the Stacks</a>
+				  <br/> (Sedlmair et al., TVCG 2012) </td>
+			      <td>  </td>
+			      <td> <i class="fas fa-chalkboard-teacher"></i> (14) </td>
+			    </tr>
+			    
+		    </table></center>
+
+		  </li>
+
+
+		  <hr style="border-top: dotted 1px;" />
+		  <li>
+		    <h3>
+		      12 Mar. 2018
+		    </h3>
+		    <h2> Understanding The Viewer </h2>
+		    Students-moderated discussion
+		    
+		     <br/> <br/>
+
+		    <center>
+		      <table>
+			    <tr>
+			      <th><i class="fas fa-book-open"></i> <b> Readings </b></th>
+			      <th> <i class="fas fa-marker"></i>Comm. </th>
+			      <th> <i class="fas fa-chalkboard-teacher"></i> Disc.</th>
+			    </tr>
+			    <tr>
+			      <td> <a href="https://www.e-education.psu.edu/geog885/sites/www.e-education.psu.edu.geog885/files/geog885q/file/Lesson_02/Sense_Making_206_Camera_Ready_Paper.pdf">
+				  The Sensemaking Process and Leverage Points for Analyst Technology as
+				  Identified <br/>Through Cognitive Task Analysis </a> 
+			   </br> (Pirolli & Card, Proceedings of international conference on intelligence analysis. Vol. 5. 2005.)</td>
+			      <td> <i class="fas fa-marker"></i> #5 </td>
+			      <td> -- </td>
+			    </tr>
+			    
+			    <tr>
+			      <td> <a href="https://graphics.cs.wisc.edu/Papers/2014/CG14/Preprint.pdf">
+				  Error Bars Considered Harmful: Exploring Alternate Encodings for Mean and Error.</a>
+				<br/> (Correll & Gleicher, TVCG 2014)</td>
+			      <td>  </td>
+			      <td> <i class="fas fa-chalkboard-teacher"></i> (15) </td>
+			    </tr>
+
+			    <tr>
+			      <td> <a href="http://hci.usask.ca/uploads/173-pap0297-bateman.pdf">
+				  Useful Junk? The Effects of Visual Embellishment on Comprehension and
+				  Memorability of Charts</a>
+				</br> (Bateman et al., CHI'10) </td>
+			      <td> </td>
+				<td> <i class="fas fa-chalkboard-teacher"></i> (16) <br/> <b>Vicky Bilbily</b></td>
+			    </tr>
+
+			    <tr>
+			      <td> <a href="https://core.ac.uk/download/pdf/78085271.pdf">
+				  How Deceptive are Deceptive Visualizations?:
+				  An Empirical Analysis of Common Distortion Techniques</a>
+				<br/> (Pandey et al., CHI 2015)</td>
+			      <td>  </td>
+				    <td> <i class="fas fa-chalkboard-teacher"></i> (17)<br/><b>Scott Brisson</b></td>
+			    </tr>
+
+			     <tr>
+			       <td> <a href="http://www.cs.toronto.edu/~fchevali/resources/publications/concrete-scales-Infovis2013.pdf">
+				   Concrete Scale: A Practical Framework for Effective Visual Depiction of
+				   Complex Measures</a>
+				<br/> (Chevalier et al., Infovis 2013)</td>
+			      <td>  </td>
+				     <td> <i class="fas fa-chalkboard-teacher"></i> (18)</td>
+			    </tr>
+		    </table></center>
+
+		    
+		  </li>
+
+
+
+		  <hr style="border-top: dotted 1px;" />
+		  <li>
+		    <h3>
+		      19 Mar. 2018
+		    </h3>
+		    <h2> Visualization Beyond the Desktop </h2>
+		    Students-moderated discussion
+		    
+		     <br/> <br/>
+
+		    <center>
+		      <table>
+			    <tr>
+			      <th><i class="fas fa-book-open"></i> <b> Readings </b></th>
+			      <th> <i class="fas fa-marker"></i>Comm. </th>
+			      <th> <i class="fas fa-chalkboard-teacher"></i> Disc.</th>
+			    </tr>
+			    <tr>
+			      <td><a href="https://hal.inria.fr/hal-00844878/file/HybridImageVisualization_CameraReady.pdf">
+				  Hybrid-Image Visualization for Large Viewing Environments</a>
+				<br/> (Isenberg et al. Infovis 2013)</td>
+			      <td>  </td>
+			      <td> <i class="fas fa-chalkboard-teacher"></i> (19) </td>
+			    </tr>
+			    
+			    <tr>
+			      <td> <a href="https://vcg.seas.harvard.edu/publications/the-hologram-in-my-hand-how-effective-is-interactive-exploration-of-3d-visualizations-in-immersive-tangible-augmented-reality/paper">
+				  The Hologram in My Hand: How Effective is Interactive Exploration of
+				  3D Visualizations in Immersive Tangible Augmented Reality?</a>
+				<br/> (Bach et al., TVCG 2017)</td>
+			      <td> </td>
+			      <td> <i class="fas fa-chalkboard-teacher"></i> (20) </td>
+			    </tr>
+
+			    <tr>
+			      <td> <a href="https://hal.inria.fr/hal-01120152/document">
+				  Opportunities and Challenges for Data Physicalization</a>
+				</br> (Jansen et al., CHI 2015)</td>
+			      <td> </td>
+			      <td> <i class="fas fa-chalkboard-teacher"></i> (21) </td>
+			    </tr>
+
+			    <tr>
+			      <td> <a href="https://hal.inria.fr/hal-01848436/file/Dynamic_Composite_Data_Physicalization_Using_Wheeled_Micro_Robots_nocopyright.pdf">
+				  Dynamic Composite Data Physicalization Using Wheeled Micro-Robots</a>
+				</br> (Le Goc et al., Infovis 2018)</td>
+			      <td> </td>
+			      <td> <i class="fas fa-chalkboard-teacher"></i> (22) </td>
+			    </tr>
+ 			    <tr>
+			       <td> <a href="https://arxiv.org/pdf/1606.07461.pdf">
+				  LSTMVis: A Tool for Visual Analysis of Hidden State Dynamics in
+Recurrent Neural Networks</a>
+				<br/> (Strobelt et al., TVCG 2016)</td>
+			      <td>  </td>
+				     <td> <i class="fas fa-chalkboard-teacher"></i> (##)<br/><b>Sohyun Park</b></td>
+			    </tr>
+			    
+		    </table></center>
+
+		  </li> 
+		 <hr style="border-top: dotted 1px;" />
+		   <li>
+		    <h3>
+		      25 Mar. 2018
+		    </h3>		  
+		        <p style="float: right; font-size: 9pt; text-align: center; width: 18%; margin-right: 5%; margin-bottom: 0.5em;"><img src="https://pbs.twimg.com/profile_images/918558186361237504/G8g1WZrv_400x400.jpg" style="width: 50%"></img></p>
+			<h2>Guest seminar: Justin Matejka (Autodesk Research)</h2>
+			Title TBA<br/>
+			<a href="https://www.autodeskresearch.com/people/justin-matejka"> Justin Matejka </a><br/> (Autodesk Research)</p>
+</li>
+
+
+		  <hr style="border-top: dotted 1px;" />
+		  <li>
+		    <h3>
+		      2 Apr. 2018
+		    </h3>
+		    <h2> PROJECT: Final presentation</h2> 
+		    <i class="fas fa-puzzle-piece"></i> Presentation in class. Don't forget to upload your slides. See <a href="project.html">Project</a>.
+			
+		  </li>
+		<hr style="border-top: dotted 1px;" />
+		  <li> <h3>
+		      15 Apr. 2018
+		    </h3>
+		    <h2> PROJECT: Final report</h2>
+		    <p> No class this day.<br/>
+		      <i class="fas fa-puzzle-piece"></i> Project final report due (5pm). See <a href="project.html">Project</a>.<p>
+			</li>
+		  <li> </li>
+		</ul>
+	      </p>
+	  </div>
+	  
+</div>
+
+
+	
+	
+
+
+<!-- Footer -->
+<div id="footer-wrapper">
+  <section id="footer" class="container">
+    <div class="row">
+      <div class="4u 12u(mobile)">
+	
+	Fanny Chevalier. Last updated on Feb. 5, 2019
+	
+      </div>
+    </div>
+  </section>
+</div>
+</div>
+</body>
+</html>
