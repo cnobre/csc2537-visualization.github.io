@@ -1,0 +1,1074 @@
+<!DOCTYPE HTML>
+
+<!--
+    Dopetrope by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  -->
+
+<html>
+  <head>
+    <title>CSC2537H-STA2555:  Information visualization</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="/assets/css/ie/html5shiv.js"></script><![endif]-->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/jquery.dropotron.min.js"></script>
+    <script src="/assets/js/skel.min.js"></script>
+    <script src="/assets/js/skel-viewport.min.js"></script>
+    <script src="/assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/d3-4.10.2.min.js"></script>
+    
+    <link rel="stylesheet" href="/assets/css/main.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    
+    <meta name="theme-color" content="#ffffff">
+    
+    
+  </head>
+  
+  <body>
+    <div id="page-wrapper">
+      
+      <!-- Main -->
+      <div id="main-wrapper">					
+	<div class="container">
+	  
+	  <div class="row">
+	    <div class="12u">
+	      <!-- Intro -->
+	      <section id="about">
+		<div id="main-info">
+		  <div id="course-code">CSC2537/STA2555<br /><p style="font-size:75%">Fall 2020</p></div>
+		  <div id="course-name"> &nbsp; &nbsp; &nbsp; &nbsp; Information Visualization</div>
+		</div>
+	      </section>
+	    </div>
+	  </div>
+
+
+
+	  <div id="header-wrapper">
+	    <div id="header">
+	      <!-- Nav -->
+	      <nav id="nav">
+		<ul>
+		  <li><a href="index.html">Home</a></li>
+		  <li class="current"> <a href="schedule.html">Schedule</a></li>
+		  <li><a href="grading.html">Grading</a></li>
+		  <li><a href="project.html">Project</a></li>
+		  <li><a href="discussion.html">Seminar</a></li>
+		  <li><a href="policy.html">Course policy</a></li>
+		</ul>
+	      </nav>
+	    </div>
+	  </div>
+
+	  <br/> <br/>
+	  
+	  <h3>Class Schedule</h3>
+	  
+	  <div class="row">
+	    
+	    <div class="8u">
+	      <p> <i>This is a tentative schedule, that is subject to evolve over the course of the term. </i></p>
+	    </div>
+	    <p>
+	      <b><i class="fas fa-chalkboard-teacher"></i> Disc.</b> : Student-moderated paper discussion <br/>
+	      <b><i class="fas fa-puzzle-piece"></i></b> Research project <br/>
+	    </p>
+	    
+
+
+	    <br/>
+	    <div class="12u">
+	      
+	      <ul class="news">
+		
+		<li>
+		  <h3>
+		    15 Sep. 2020
+		  </h3>
+		  <h2> L1: Introduction </h2> 
+		  <p> Why visualization? </p>
+		  <p> Course mechanics, Prospective projects</p>
+		</li>
+
+		
+		<hr style="border-top: dotted 2px;" />
+
+		
+		<li>
+		  <h3>
+		    22 Sep. 2020
+		  </h3>
+		  <h2> L2: Fundaments of visualization</h2> 
+		  <p> Visual Perception, Data Types </p>
+		  
+		  <br /> 
+
+		  
+		  <center>
+		    <table>
+		      <tr>
+			<th><i class="fas fa-book-open"></i> <b> Readings </b></th>
+			<th> <i class="fas fa-marker"></i>Comm. </th>
+			<th> <i class="fas fa-chalkboard-teacher"></i> Disc.</th>
+		      </tr>
+		      <tr>
+			<td><a href="http://info.slis.indiana.edu/~katy/S637-S11/cleveland84.pdf">
+			    Graphical Perception: Theory, Experimentation and the Application
+			    to the Development of Graphical Models</a> 
+			  <br /> (Cleveland and McGill, J. Am. Stat. Assoc., 1984)</td>
+			<td> -- </td>
+			<td> -- </td>
+		      </tr>
+		      
+		      <tr>
+			<td><a href="https://www.csc2.ncsu.edu/faculty/healey/download/tvcg.12a.pdf">
+			    Attention and Visual Memory in Visualization and Computer Graphics</a> 
+			  <br /> (Healey and Enns, IEEE TVCG, 2012)</td>
+			<td> -- </td>
+			<td> -- </td>
+		      </tr>
+		      
+		      <tr>
+			<td><a href="http://info.ils.indiana.edu/~katy/S637-S11/Card.pdf">
+			    The structure of the information visualization design space</a> 
+			  <br /> (Card and Mackinlay, IEEE InfoVis 1987)</td>
+			<td> -- </td>
+			<td> -- </td>
+		      </tr>
+		      
+		      
+		      <tr>
+			<td> <a href="https://courses.washington.edu/info424/2007/readings/Shneiderman_EyesHaveIt_VL96.pdf">
+			    The Eyes Have It: A Task by Data Type Taxonomy for Information Visualizations</a> <br />
+			  (Shneiderman, The craft of information visualization, 1996)</td>
+			<td> --  </td>
+			<td> -- </td>
+		      </tr>
+		    </table>
+		  </center>
+		</li>
+
+
+		<hr style="border-top: dotted 2px;" />
+
+		<li>
+		  <h3>
+		    29 Sep. 2020
+		  </h3>
+		  <h2> L3: Visualization Research</h2>
+		  Research topics in visualization, Forming research questions, Devising a research plan <br/><br/>
+
+		  
+		  <center>
+		    <table>
+		      <tr>
+			<th><i class="fas fa-book-open"></i> <b> Readings </b></th>
+			<th> <i class="fas fa-marker"></i>Comm. </th>
+			<th> <i class="fas fa-chalkboard-teacher"></i> Disc.</th>
+		      </tr>
+		      <tr>
+			<td><a href="https://tobias.isenberg.cc/personal/papers/Isenberg_2017_VST.pdf">
+			    Visualization as Seen Through its Research Paper Keywords</a>
+			  <br /> (Isenberg et al., Infovis 2017)</td>
+			<td> --  </td>
+			<td> -- </td>
+		      </tr>
+		      
+		      <tr>
+			<td>  <a href="http://www.cs.ubc.ca/labs/imager/tr/2008/pitfalls/pitfalls.pdf">
+			    Process and Pitfalls in Writing Information Visualization Research Papers</a><br />
+			  (Munzner, Information visualization. Springer, 2008)</td>
+			<td> -- </td>
+			<td> -- </td>
+		      </tr>
+
+		      <tr>
+			<td>  <a href="https://www.cs.utah.edu/~miriah/publications/adr.pdf">
+			    Action Design Research and Visualization Design</a><br />
+			  (McCurdy, Dykes and Meyer, BELIV Workshop, 2016)</td>
+			<td> -- </td>
+			<td> -- </td>
+		      </tr>
+		    </table>
+		  </center>
+
+		  <br/>
+
+		</li>
+
+		
+		<hr style="border-top: dotted 2px;" />
+		<li>
+		  <h3>
+		    6 Oct. 2020
+		  </h3>
+		  <h2> L4: Exploratory Data Analysis</h2>
+		  <p> Overview and basics of exploratory data analysis</p>		  
+		  <br/>
+		  
+		  <p> <i class="fas fa-chalkboard-teacher"></i> <b>Class discussion</b><br/>
+		    Students-moderated discussion of thematic papers.
+		  </p>
+
+		  <br/> <br/>		  
+
+		  <center>
+		    <table>
+		      <tr>
+			<th><i class="fas fa-book-open"></i> <b> Readings </b></th>
+			<th> <i class="fas fa-marker"></i>Comm. </th>
+			<th> <i class="fas fa-chalkboard-teacher"></i> Disc.</th>
+		      </tr>
+
+		      <tr>
+			<td><a href="http://utl.summon.serialssolutions.com/2.0.0/link/0/eLvHCXMwnV3PS8MwFH44TxPxx1Q2f9HDLh7KljStjRdRcXiZp8nAS0jaBIQ5p-tA_3tfknZ2Igy8BBrSpu0LL1_yvnwPoKuIUVrKJCSIlkPGcxLyPKYho1RJrvqJdjkjaxFTv3UxL2mVjhfoovgIkNRE92iSotck17P30KaLsmHVMndGAxoIGbys648DvkxolSgPXXS8MuWsCJJWJESrE5q9zRbz2twy2IWKQfv6JV32wj_lBVbVG__xDXuwU4LP4MaPln3Y0NMWbNUkCfFquNRxnbegabGol3I-gIuxDh5xsgtu0bqBJ--5GH0gp3lgjw6-WPyLFYfwNLgf3T2EZaaFMMMFoDuUxhXLudQJMwYxFZcZ6Rtlw7K4RlG4iDZoVc4YN0YlqaZRIiPNZBppzRSNjmBbWkb-tHAn9_I2BCRD6KW05kQTRqhRTGWU5iYiisXERB3oVVYRM6-sIchSsNRKSvZjQXhqq6xWaT_pwFXdeKJwexrGJyAR0bqbz5xN6n1ZErwoDdOBrh8CywZUzKlwj7NODB2bKD6LDrR_NcN_4kBffLymhxNo2jfylO9T2Cw-FvoMEU0xOXfjF8she8ZyNBh_AyZq9T4">
+			    We Need Both Exploratory and Confirmatory</a>
+			  <br /> (Tukey, The American Statistician, 1980) </td>
+			<td> -- </td>
+			<td> -- </td>
+			
+		      <tr>
+			<td><a href="http://www.stat.columbia.edu/~gelman/research/published/vis14.pdf">
+			    Infovis and Statistical Graphics: Different Goals, Different Looks </a> 
+			  <br /> (Gelman and Unwin, Journal of Computational and Graphical Statistics, 2013)</td>
+			<td> <i class="fas fa-marker"></i> #1 </td>
+			<td> -- </td>
+		      </tr>
+		      
+		      <tr>
+			<td><a href="https://graphics.stanford.edu/papers/polaris/polaris.pdf">
+			    Polaris: A System for Query, Analysis and Visualization of Multi-dimensional
+			    Relational Databases </a> 
+			  <br /> (Stolte and Hanrahan, TVCG 2002)</td>
+			<td> -- </td>
+			<td>  <i class="fas fa-chalkboard-teacher"></i> (1) <br/><b></b></td>
+		      </tr>
+		      
+		      <tr>
+			<td> <a href="https://idl.cs.washington.edu/files/2015-Voyager-InfoVis.pdf">
+			    Voyager: Exploratory Analysis via Faceted Browsing of Visualization Recommendations</a> 
+			  <br /> (Kanit Wongsuphasawat et al., TVCG 2016)</td>
+			<td> -- </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (2) <br/> </td>
+		      </tr>
+		      
+		      <tr>
+			<td> <a href="http://vis.stanford.edu/files/2011-DataWrangling-IVJ.pdf">
+			    Research directions in data wrangling: Visualizations and transformations for usable and credible data </a>
+			  <br /> (Kandel et al., Information Visualization, 2011)</td>
+			<td> -- </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (3) <br/> </td>
+		      </tr>
+
+		      
+		      
+		      <tr>
+			<td> <a href="http://people.ischool.berkeley.edu/~hearst/papers/vast2018.pdf">
+			    Futzing and Moseying: Interviews with Professional Data Analysts on Exploration Practices</a>
+			  <br /> (Alspaugh et al., IEEE VAST 2018)</td>
+			<td> -- </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (4) <br/></td>
+		      </tr>
+		      
+		      <!--
+		      <tr>
+			<td> <a href="http://users.umiacs.umd.edu/~elm/projects/visgap/visgap.pdf">
+			    The Interactive Visualization Gap in Initial Exploratory Data Analysis</a>
+			  <br /> (Batch and Elmqvist, IEEE InfoVis 2017)</td>
+			<td> -- </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (4)</td>
+		      </tr>
+		      -->
+		      
+		  </table></center>
+
+		</li>
+
+		
+		<li>
+		  <h3>13 Oct. 2020</h3>
+		  <p><i class="fas fa-puzzle-piece"></i> <b>Project</b> <br/>
+		    Project abstract due. (See <a href="project.hml">Project</a>).
+		  </p>
+		</li>
+
+
+		
+		<hr style="border-top: dotted 2px;" />
+		<li>
+		  <h3>
+		    13 Oct. 2020
+		  </h3>
+		  <h2> L5: Visual Analytics</h2>
+		  <p> Definition, Challenges, and Use Cases </p>
+
+		  <br/>
+		  
+		  <p> <i class="fas fa-chalkboard-teacher"></i> <b>Class discussion</b><br/>
+		    Students-moderated discussion of thematic paper.
+		  </p>
+
+		  <br/> <br/>		  
+		  
+		  
+
+		  <center>
+		    <table>
+		      <tr>
+			<th><i class="fas fa-book-open"></i> <b> Readings </b></th>
+			<th> <i class="fas fa-marker"></i>Comm. </th>
+			<th> <i class="fas fa-chalkboard-teacher"></i> Disc.</th>
+		      </tr>
+		      <tr>
+			<td> <a href="https://hal-lirmm.ccsd.cnrs.fr/lirmm-00272779/document">
+			    Visual Analytics: Definition, Process and Challenges</a>
+			  <br /> (Keim et al., Information Visualization - Human-Centered Issues and Perspectives,
+			  Springer, 2008)</td>
+			<td> -- </td>
+			<td> -- </td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="https://archive.hiit.fi/vakd09/vakd09/vakdsi09keim_final.pdf">
+			    Visual Analytics: How Much Visualization and How Much Analytics?</a>
+			  <br /> (Keim et al., SIGKDD Explorations, 2009)</td>
+			<td> <i class="fas fa-marker"></i> #2 </td>
+			<td> -- </td>
+		      </tr>
+		      
+		      <tr>
+			<td> <a href="http://dongyu.name/recourse/papers/tvcg_2018_dongyu_tpflow.pdf">
+			    TPFlow: Progressive Partition and Multidimensional Pattern Extraction for Large-Scale Spatio-Temporal Data Analysis</a> 
+			  <br /> (Liu et al., IEEE VAST 2018)</td>
+			<td> -- </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (5) <br/><b>Sana Tonekaboni</b></td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="https://arxiv.org/pdf/1804.09299.pdf">
+			    SEQ2SEQ-VIS : A Visual Debugging Tool for Sequence-to-Sequence Models</a> 
+			  <br /> (Strobelt et al., IEEE VAST 2018)</td>
+			<td> -- </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (6) <br/><b>Rohit Saha</b></td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="https://www3.cs.stonybrook.edu/~mueller/papers/visual-analytics-anomalous.pdf">
+			    A Visual Analytics Framework for the Detection of Anomalous Call
+			    Stack Trees in High Performance Computing Applications</a> 
+			  <br /> (Xie et al., IEEE VAST 2018)</td>
+			<td> -- </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (7) <br/></td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="http://edda-project.github.io/files/2018-08-13/dqnvis.pdf">
+			    DQNViz: A Visual Analytics Approach to Understand Deep Q-Networks</a> 
+			  <br /> (Wang et al., IEEE VAST 2018)</td>
+			<td> -- </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (8) <br/><b>Ian Berlot-Attwell</b></td>
+		      </tr>
+		      
+		  </table></center>		    
+
+		</li>
+
+	
+
+		
+		<hr style="border-top: dotted 2px;" />
+		<li>
+		  <h3>
+		    20 Oct. 2020
+		  </h3>
+
+		  <h2> L6: Evaluation & Review </h2>
+		  <p>Validation methods</p>
+
+		  <br/>
+		  
+		  <p> <i class="fas fa-chalkboard-teacher"></i> <b>Class discussion</b><br/>
+		    Students-moderated discussion of thematic papers.
+		  </p>
+
+		  <br/> <br/>		  
+
+
+		  <center>
+		    <table>
+		      <tr>
+			<th><i class="fas fa-book-open"></i> <b> Readings </b></th>
+			<th> <i class="fas fa-marker"></i>Comm. </th>
+			<th> <i class="fas fa-chalkboard-teacher"></i> Disc.</th>
+		      </tr>
+		      
+		      
+		      <tr>
+			<td> <a href="https://www.cs.ubc.ca/labs/imager/tr/2009/NestedModel/NestedModel.pdf">
+			    A Nested Model for Visualization Design and Validation</a> 
+			  <br/> (Munzner, Infovis 2009)</td>
+			<td> <i class="fas fa-marker"></i> #3 </td>
+			<td> -- </td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="http://bahadorsaket.com/publication/BELIV2016.pdf">
+			    Beyond Usability and Performance: A Review of User Experience-focused Evaluations
+			    in Visualization</a> 
+			  <br/> (Sakert, Endert and Stasko, BELIV 2016)</td>
+			<td>  </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (9) <br/></td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="https://uncharted.software/assets/evaluation-of-visualization-by-critiques.pdf">
+			    Evaluation of Visualization by Critiques</a> 
+			  <br/> (Brath & Banissi, BELIV 2016)</td>
+			<td>  </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (10) <br/><b>Crystal Chen</b></td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="http://www.cs.ubc.ca/labs/imager/tr/2012/dsm/dsm.pdf">
+			    Design Study Methodology: Reflections from the Trenches and the Stacks</a>
+			  <br/> (Sedlmair et al., TVCG 2012) </td>
+			<td>  </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (11) </td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.835.9529&rep=rep1&type=pdf">
+			    Patterns for visualization evaluation</a>
+			  <br/> (Elmqvist and Yi, Information Visualization 2015) </td>
+			<td>  </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (12) <br/><b>Michael Moon</b> </td>
+		      </tr>
+
+		      
+
+		      <tr>
+			<td> <a href="https://petra.isenberg.cc/publications/papers/Preim_2018_ACA.pdf">
+			    A Critical Analysis of the Evaluation Practice in Medical Visualization</a>
+			  <br/> (Preim, Ropinski and Isenberg, Eurographics Workshop on Visual Computing for Biology and Medicine, 2018) </td>
+			<td>  </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (13) <br/><b>Lucas Temor</b></td>
+		      </tr>
+		      
+		  </table></center>
+
+		</li>
+
+	
+
+		
+
+		<hr style="border-top: dotted 2px;" />
+	
+
+
+		
+		<hr style="border-top: dotted 2px;" />
+		<li>
+		  <h3>
+		    27 Oct. 2020
+		  </h3>
+
+		  <h2> L7: Evaluation & Review </h2>
+		  <p>Validation methods</p>
+
+		  <br/>
+		  
+		  <p> <i class="fas fa-chalkboard-teacher"></i> <b>Class discussion</b><br/>
+		    Students-moderated discussion of thematic papers.
+		  </p>
+
+		  <br/> <br/>		  
+
+
+		  <center>
+		    <table>
+		      <tr>
+			<th><i class="fas fa-book-open"></i> <b> Readings </b></th>
+			<th> <i class="fas fa-marker"></i>Comm. </th>
+			<th> <i class="fas fa-chalkboard-teacher"></i> Disc.</th>
+		      </tr>
+		      
+		      
+		      <tr>
+			<td> <a href="https://www.cs.ubc.ca/labs/imager/tr/2009/NestedModel/NestedModel.pdf">
+			    A Nested Model for Visualization Design and Validation</a> 
+			  <br/> (Munzner, Infovis 2009)</td>
+			<td> <i class="fas fa-marker"></i> #3 </td>
+			<td> -- </td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="http://bahadorsaket.com/publication/BELIV2016.pdf">
+			    Beyond Usability and Performance: A Review of User Experience-focused Evaluations
+			    in Visualization</a> 
+			  <br/> (Sakert, Endert and Stasko, BELIV 2016)</td>
+			<td>  </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (9) <br/></td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="https://uncharted.software/assets/evaluation-of-visualization-by-critiques.pdf">
+			    Evaluation of Visualization by Critiques</a> 
+			  <br/> (Brath & Banissi, BELIV 2016)</td>
+			<td>  </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (10) <br/><b>Crystal Chen</b></td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="http://www.cs.ubc.ca/labs/imager/tr/2012/dsm/dsm.pdf">
+			    Design Study Methodology: Reflections from the Trenches and the Stacks</a>
+			  <br/> (Sedlmair et al., TVCG 2012) </td>
+			<td>  </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (11) </td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.835.9529&rep=rep1&type=pdf">
+			    Patterns for visualization evaluation</a>
+			  <br/> (Elmqvist and Yi, Information Visualization 2015) </td>
+			<td>  </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (12) <br/><b>Michael Moon</b> </td>
+		      </tr>
+
+		      
+
+		      <tr>
+			<td> <a href="https://petra.isenberg.cc/publications/papers/Preim_2018_ACA.pdf">
+			    A Critical Analysis of the Evaluation Practice in Medical Visualization</a>
+			  <br/> (Preim, Ropinski and Isenberg, Eurographics Workshop on Visual Computing for Biology and Medicine, 2018) </td>
+			<td>  </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (13) <br/><b>Lucas Temor</b></td>
+		      </tr>
+		      
+		  </table></center>
+
+		</li>
+
+	
+
+		
+
+		<hr style="border-top: dotted 2px;" />
+
+
+		
+		<hr style="border-top: dotted 2px;" />
+		<li>
+		  <h3>
+		    3 Nov. 2020
+		  </h3>
+
+		  <h2> L6: Evaluation & Review </h2>
+		  <p>Validation methods</p>
+
+		  <br/>
+		  
+		  <p> <i class="fas fa-chalkboard-teacher"></i> <b>Class discussion</b><br/>
+		    Students-moderated discussion of thematic papers.
+		  </p>
+
+		  <br/> <br/>		  
+
+
+		  <center>
+		    <table>
+		      <tr>
+			<th><i class="fas fa-book-open"></i> <b> Readings </b></th>
+			<th> <i class="fas fa-marker"></i>Comm. </th>
+			<th> <i class="fas fa-chalkboard-teacher"></i> Disc.</th>
+		      </tr>
+		      
+		      
+		      <tr>
+			<td> <a href="https://www.cs.ubc.ca/labs/imager/tr/2009/NestedModel/NestedModel.pdf">
+			    A Nested Model for Visualization Design and Validation</a> 
+			  <br/> (Munzner, Infovis 2009)</td>
+			<td> <i class="fas fa-marker"></i> #3 </td>
+			<td> -- </td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="http://bahadorsaket.com/publication/BELIV2016.pdf">
+			    Beyond Usability and Performance: A Review of User Experience-focused Evaluations
+			    in Visualization</a> 
+			  <br/> (Sakert, Endert and Stasko, BELIV 2016)</td>
+			<td>  </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (9) <br/></td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="https://uncharted.software/assets/evaluation-of-visualization-by-critiques.pdf">
+			    Evaluation of Visualization by Critiques</a> 
+			  <br/> (Brath & Banissi, BELIV 2016)</td>
+			<td>  </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (10) <br/><b>Crystal Chen</b></td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="http://www.cs.ubc.ca/labs/imager/tr/2012/dsm/dsm.pdf">
+			    Design Study Methodology: Reflections from the Trenches and the Stacks</a>
+			  <br/> (Sedlmair et al., TVCG 2012) </td>
+			<td>  </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (11) </td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.835.9529&rep=rep1&type=pdf">
+			    Patterns for visualization evaluation</a>
+			  <br/> (Elmqvist and Yi, Information Visualization 2015) </td>
+			<td>  </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (12) <br/><b>Michael Moon</b> </td>
+		      </tr>
+
+		      
+
+		      <tr>
+			<td> <a href="https://petra.isenberg.cc/publications/papers/Preim_2018_ACA.pdf">
+			    A Critical Analysis of the Evaluation Practice in Medical Visualization</a>
+			  <br/> (Preim, Ropinski and Isenberg, Eurographics Workshop on Visual Computing for Biology and Medicine, 2018) </td>
+			<td>  </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (13) <br/><b>Lucas Temor</b></td>
+		      </tr>
+		      
+		  </table></center>
+
+		</li>
+
+	
+
+		
+
+		<hr style="border-top: dotted 2px;" />
+
+		
+		<li>
+		  <h3>
+		    10 Nov. 2020
+		  </h3>
+		  <h2> READING Week: no class </h2>
+		</li>
+		
+		<br/>
+		<li>
+		  <h3> 8 Nov. 2019</h3>
+		  
+		  <p><i class="fas fa-marker"></i> <b>Commentaries</b> <br/>
+		    Commentary #4 due.
+		  </p>
+		</li>
+		
+
+		<hr style="border-top: dotted 2px;" />
+		<li>
+		  <h3>
+		    17 Nov. 2020
+		  </h3>
+		  <h2> L9: Graphs & Networks</h2>
+		  <p> Overview and basics of graphs & networks visualization </p>
+
+		  <br/>		  
+		  <p> <i class="fas fa-chalkboard-teacher"></i> <b>Class discussion</b><br/>
+		    Students-moderated discussion of thematic papers.
+		  </p>
+		  
+		  <br/><br/> 
+		  
+
+		  <center>
+		    <table>
+		      <tr>
+			<th><i class="fas fa-book-open"></i> <b> Readings </b></th>
+			<th> <i class="fas fa-marker"></i>Comm. </th>
+			<th> <i class="fas fa-chalkboard-teacher"></i> Disc.</th>
+		      </tr>
+
+		      <tr>
+			<td> <a href="https://ialab.it.monash.edu/~dwyer/papers/graphthumbnails.pdf">
+			    Graph Thumbnails: Identifying and Comparing
+			    Multiple Graphs at a Glance</a> 
+			  <br /> (Yoghourdjian et al., TVCG 2018)</td>
+			<td> <i class="fas fa-marker"></i> #4 </td>
+			<td> -- </td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="http://www.dgp.toronto.edu/~mjmcguff/research/nodetrix/nodetrix.pdf">
+			    NodeTrix: a hybrid visualization of social networks</a>
+			  <br /> (Henry et al., TVCG 2007)</td>
+			<td> -- </td>
+			<td>  <i class="fas fa-chalkboard-teacher"></i> (14) <br/><b>Syed Shaham Farooq</b></td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="http://www.cs.toronto.edu/~fchevali/fannydotnet/resources_pub/pdf/egolines_chi2016.pdf">
+			    Egocentric Analysis of Dynamic Networks with EgoLines</a> 
+			  <br /> (Zhao et al., ACM CHI 2016)</td>
+			<td> -- </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (15) <br/><b>Reid McIlroy-Young</b></td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="http://sci.utah.edu/~vdl/papers/2018_tvcg_lineage.pdf">
+			    Lineage: Visualizing Multivariate Clinical Data in Genealogy Graphs</a> 
+			  <br /> (Nobre et al., IEEE InfoVis 2018)</td>
+			<td> -- </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (16) <br/><b>Larry Wu</b></td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="https://hal.inria.fr/hal-01256099/document">
+			    Telling Stories about Dynamic Networks with Graph Comics</a> 
+			  <br /> (Bach et al., ACM CHI 2016)</td>
+			<td> -- </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (17) <br/><b>Huu (Julia) Le</b></td>
+		      </tr>
+		      
+		  </table></center>		    
+
+		</li>
+
+
+
+		
+		<hr style="border-top: dotted 2px;" />
+		<li>
+		  <h3>
+		    24 Nov. 2019
+		  </h3>
+		  <h2> L8: Interaction & Animation </h2>
+		  <p>The role of interaction and animation in visualization</p>
+
+		  <br/>		  
+		  <p> <i class="fas fa-chalkboard-teacher"></i> <b>Class discussion</b><br/>
+		    Students-moderated discussion of thematic papers.
+		  </p>
+
+		  <br/><br/>
+
+		  <center>
+		    <table>
+		      <tr>
+			<th><i class="fas fa-book-open"></i> <b> Readings </b></th>
+			<th> <i class="fas fa-marker"></i>Comm. </th>
+			<th> <i class="fas fa-chalkboard-teacher"></i> Disc.</th>
+		      </tr>
+		      <tr>
+			<td><i class="fas fa-video"></i> <a href="https://vimeo.com/groups/eurovis2014/videos/98986594">The Value of Visualization...
+			    and Why Interaction Matters</a> <br/>
+			  (Stasko, Eurovis 2014 Capstone </td>
+			<td>  </td>
+			<td>  </td>
+		      </tr>
+		      
+		      <tr>
+			<td> <a href="http://hci.stanford.edu/courses/cs448b/papers/Tversky_AnimationFacilitate_IJHCS02.pdf">
+			    Animation: can it facilitate?</a> 
+			  <br/> (Tversky, IJHCS 2002)</td>
+			<td> <i class="fas fa-marker"></i> #5 </td>
+			<td>  </td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="https://idl.cs.washington.edu/files/2007-AnimatedTransitions-InfoVis.pdf">
+			    Animated Transitions in Statistical Data Graphics</a>
+			  <br/> (Heer & Robertson, TVCG 2007)</td>
+			<td>  </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (18) <br/><b>Tina Sedaghat</b></td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="http://www.cs.toronto.edu/~fchevali/fannydotnet/resources_pub/pdf/notsostaggering-infovis14.pdf">
+			    The not-so-staggering effect of staggered animation</a>
+			  <br/> (Chevalier et al., TVCG 2014)</td>
+			<td>  </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (19) <br/><b>Josh Holinaty</b></td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.716.4498&rep=rep1&type=pdf">
+			    DimpVis: Exploring Time-varying Information Visualizations by Direct Manipulation</a>
+			  <br/> (Kondo and Collins, Infovis 2014)</td>
+			<td>  </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (20) <br/><b>Alexandra Portolos</b></td></td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="http://www.cs.tufts.edu/comp/250VIS/papers/tvcg2013-sketchstory.pdf">
+			    SketchStory: Telling more Engaging Stories with Data through Freeform Sketching</a>
+			  <br /> (Lee et al., Infovis 2014)</td>
+			<td>  </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (21) <br/><b>Aravind Ramaraju</b></td>
+		      </tr>
+		      
+		      
+		  </table></center>
+
+		</li>
+
+		<br/>
+		
+		<li>
+		  <h3> 22 Nov. 2019</h3>
+		  <p><i class="fas fa-puzzle-piece"></i> <b>Project</b> <br/>
+		    Peer-feedback on project videos due. (See <a href="project.hml">Project</a>).
+		  </p>
+		  <br/>
+		</li>
+
+       
+		
+		
+		
+		<hr style="border-top: dotted 2px;" />
+		<li>
+		  <h3>
+		    1 Dec. 2020
+		  </h3>
+		  <h2> L9: Understanding The Viewer </h2>
+		  <p> Theoretical and empirical approaches to understanding people</p>
+
+
+		  <br/>		  
+		  <p> <i class="fas fa-chalkboard-teacher"></i> <b>Class discussion</b><br/>
+		    Students-moderated discussion of thematic papers.
+		  </p>
+
+		  
+		  <br/> <br/>
+
+		  <center>
+		    <table>
+		      <tr>
+			<th><i class="fas fa-book-open"></i> <b> Readings </b></th>
+			<th> <i class="fas fa-marker"></i>Comm. </th>
+			<th> <i class="fas fa-chalkboard-teacher"></i> Disc.</th>
+		      </tr>
+		      <tr>
+			<td> <a href="https://www.e-education.psu.edu/geog885/sites/www.e-education.psu.edu.geog885/files/geog885q/file/Lesson_02/Sense_Making_206_Camera_Ready_Paper.pdf">
+			    The Sensemaking Process and Leverage Points for Analyst Technology as
+			    Identified <br/>Through Cognitive Task Analysis </a> 
+			  <br /> (Pirolli & Card, Proceedings of international conference on intelligence analysis. Vol. 5. 2005.)</td>
+			<td> <i class="fas fa-marker"></i> #6 </td>
+			<td> -- </td>
+		      </tr>
+		      
+		      <tr>
+			<td> <a href="https://graphics.cs.wisc.edu/Papers/2014/CG14/Preprint.pdf">
+			    Error Bars Considered Harmful: Exploring Alternate Encodings for Mean and Error.</a>
+			  <br/> (Correll & Gleicher, TVCG 2014)</td>
+			<td>  </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (22) <br/><b>Blaine Lewis</b> </td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="http://hci.usask.ca/uploads/173-pap0297-bateman.pdf">
+			    Useful Junk? The Effects of Visual Embellishment on Comprehension and
+			    Memorability of Charts</a>
+			  <br /> (Bateman et al., CHI'10) </td>
+			<td> </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (23) <br/> <b>Jeff Allen</b> </td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="http://www.cs.tufts.edu/comp/250VIS/papers/chi2015-deception.pdf">
+			    How Deceptive are Deceptive Visualizations?:
+			    An Empirical Analysis of Common Distortion Techniques</a>
+			  <br/> (Pandey et al., CHI 2015)</td>
+			<td>  </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (24)<br/> <b> Emily Franklin</b></td>
+		      </tr>
+
+		      <tr>
+			<td> <a href="http://www.cs.toronto.edu/~fchevali/resources/publications/concrete-scales-Infovis2013.pdf">
+			    Concrete Scale: A Practical Framework for Effective Visual Depiction of
+			    Complex Measures</a>
+			  <br/> (Chevalier et al., Infovis 2013)</td>
+			<td>  </td>
+			<td> <i class="fas fa-chalkboard-teacher"></i> (25)<br/> <b>Scott Whitty</b></td>
+		      </tr>
+		  </table></center>
+		</li>
+
+
+		<li>
+		  <h3> 1 Dec. 2019</h3>
+		  <i class="fas fa-puzzle-piece"></i> <b>Project</b><br/>
+		  Project presentation slides due. See <a href="project.html">Project</a>
+		</li>
+		
+		<hr style="border-top: dotted 2px;" />
+		<li>
+		  <h3>
+		    8 Dec. 2019
+		  </h3>
+		  <h2> Project presentation (1/2)</h2> 
+		  <i class="fas fa-puzzle-piece"></i> Pre-recorded presentation on zoom. 
+		  
+		  <center>
+		    <table>
+		      <tr>
+			<th> <b> Time </b></th>
+			<th> <b> Title </b> </th>
+			<th> <b> Presenter(s) </b></th>
+		      </tr>
+		      <tr>
+			<td> 10:15am</td>
+			<td> An Empirical Analysis of Reversed Colour Associations as a Distortion Technique </td>
+			<td> Aravind </td>
+		      </tr>
+
+		      <tr>
+			<td> 10:30am</td>
+			<td> Good Chartjunk: Sending a Message in a Fun Way
+			  without Compromising Perception of Data </td>
+			<td> Rohit + Ian </td>
+		      </tr>
+
+		      <tr>
+			<td> 10:45am</td>
+			<td> Dynamic Dot Density Maps </td>
+			<td> Jeff </td>
+		      </tr>
+		      
+		      <tr>
+			<td> 11:00am</td>
+			<td> Visualizing Machine Learning Model Uncertainty in a Clinical Setting </td>
+			<td> Sana </td>
+		      </tr>
+
+		      <tr>
+			<td> 11:15am</td>
+			<td> Visualizing Twitter Feeds for Public Opinion Analysis </td>
+			<td> Michael </td>
+		      </tr>
+
+		      <tr>
+			<td> 11:30am</td>
+			<td> Dynamic Chess Move Tree Visualization with Engine Feedback </td>
+			<td> Reid + Tina </td>
+		      </tr>
+
+		  </table></center>
+		</li>
+		
+		<br/>
+
+		<li>
+		  <h3>
+		    5 Dec. 2019 <br />
+		    9AM-11AM <br />
+		    Make-up <br />
+		    Thanksgiving
+		  </h3>
+		  <h2> Project presentation (2/2) </h2> 
+		  <i class="fas fa-puzzle-piece"></i> Presentation in class. <b>Location: BA5166</b>
+
+		
+		  <center>
+		    <table>
+		      <tr>
+			<th> <b> Time </b></th>
+			<th> <b> Title </b> </th>
+			<th> <b> Presenter(s) </b></th>
+		      </tr>
+		      <tr>
+			<td> 9:15am</td>
+			<td> IESO Power Data Re-Imagined </td>
+			<td> Alexandra </td>
+		      </tr>
+
+		      <tr>
+			<td> 9:30am</td>
+			<td> Noise Imbued Visualizations </td>
+			<td> Josh </td>
+		      </tr>
+
+		      <tr>
+			<td> 9:45am</td>
+			<td> How Non-Colour Visual Variables Affect Colour Differentiation in Normal and Colour Blind Vision </td>
+			<td> Crystal + Julia </td>
+		      </tr>
+		      
+		      <tr>
+			<td> 10:00am</td>
+			<td> Playing mass spectrometry over time to identify values of interest </td>
+			<td> Emily </td>
+		      </tr>
+
+
+		      <tr>
+			<td> 10:15am</td>
+			<td> Digging Deeper: A Tool for Producing Robust Evidence for Explaining Experimental Results </td>
+			<td> Blaine </td>
+		      </tr>
+
+		      <tr>
+			<td> 10:30am</td>
+			<td> PropViz </td>
+			<td> Scott </td>
+		      </tr>
+
+		      <tr>
+			<td> 10:45am</td>
+			<td> Skim Reading </td>
+			<td> Syed </td>
+		      </tr>
+
+
+		  </table></center>
+
+		  
+		</li>
+
+		
+		<hr style="border-top: dotted 2px;" />
+		<li> <h3>
+		    15 Dec. 2019
+		  </h3>
+		  <h2> PROJECT: Research report</h2>
+		  <p> No class this day.<br/>
+		    <i class="fas fa-puzzle-piece"></i> Project research report due (midnight). See <a href="project.html">Project</a>.
+		</li>
+
+	      </ul>
+	      
+	    </div>
+
+	  </div>
+
+
+
+
+
+
+	  <!-- Footer -->
+	  <div id="footer-wrapper">
+	    <section id="footer" class="container">
+	      <div class="row">
+		<div class="4u 12u(mobile)">
+		  
+		  Fanny Chevalier. Last updated on August 10, 2020
+		  
+		</div>
+	      </div>
+	    </section>
+	  </div>
+	</div>
+  </body>
+</html>
